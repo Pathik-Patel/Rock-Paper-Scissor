@@ -1,0 +1,2 @@
+Output of the 1.0  and 2.0  is same but in 1.0 i did not remove any previous code i just commented out it.while in 2.0 i removed all unnecessary code from files.
+Full Responsive

@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <style>
+    body{
+        background-image: url("images/backgrounds.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .container{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    button{
+        width: 100px;
+        height: 35px;
+        background-color: rgb(41, 41, 255);
+        color: white;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width:600px){
+        p{
+            font-size: 13px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>How to Play Rock Paper Scissor</h1>
+        <p>
+            1. This is a game between player and computer.<br><br>
+            2. for this game you just need to know this things<br><br>
+            3. Rock is more powerful than Scissor<br><br>
+            4. Scissor is more powerful than Paper<br><br>
+            5. Paper is more powerful than Rock<br><br>
+            6. So ultimately you need to choose your ones and then 
+            program will choose any random from 3 of this.<br><br>
+            7. Then both choices will be compared and whoever has more powerful
+            choice will win the game.<br><br>
+            
+        </p>
+
+        <button onclick="start()">Let's Start</button>
+    </div>
+    <script>
+        function start(){
+            window.open("main.html","_self");
+        }
+    </script>
+</body>
+</html>
